@@ -1,0 +1,14 @@
+{
+  "name": "praticando_args",
+  "version": "1.0.0",
+  "description": "Manipulando argumentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruan",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
