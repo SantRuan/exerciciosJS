@@ -15,9 +15,11 @@ app.get(('/'), (req,res)=>{
 
 
 
+    
     const auth = true
 
     const aprovado = false
+
 
 
     const user = { name: 'Ruan',
