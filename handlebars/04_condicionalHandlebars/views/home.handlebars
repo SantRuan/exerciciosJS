@@ -1,0 +1,18 @@
+<h1>Ola mundo</h1>
+<h2>{{palavra}}</h2>
+<p>Algum texto do site, o nome do usuário é {{user.name}} {{user.lastName}}</p>
+
+{{#if aprovado}}
+
+<p> Voce foi aprovado, parabéns</p>
+
+
+
+ {{else}}
+ <p> NÃO FOI DESSA VEZ CAMPEAO</p>
+ {{/if}}    
+{{#if auth}}
+
+<p> Você está autorizado <a href="/dashboard">entre na área de Dashboards</a></p>
+
+{{/if}}
